@@ -1,20 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'react-router-dom';
-import Home from './pages/Home';
-import FavoritesMovies from './pages/FavoritesMovies';
-import { Searchbar, Toolbar, Typography, Button } from '@mui/material';
+import { styled } from '@mui/material/styles';
+import AppBar from './components/AppBar';
 
-function App   () {
-  return(
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/favorites" element={<FavoritesMovies/>} />
-      </Routes>
-    </BrowserRouter>
-  );
+
+const Div = styled('div')(({ theme }) => ({
+  ...theme.typography.button,
+  backgroundColor: (theme.vars || theme).palette.background.paper,
+  padding: theme.spacing(1),
+}));
+
+function App() {
+  return ("hi");
 }
-  
-
 
 export default App;
