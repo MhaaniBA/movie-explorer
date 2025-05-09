@@ -1,7 +1,6 @@
 // import React from 'react';
 // import { useMovie } from '../context/MovieContext';
-// import SearchBar from '../components/SearchBar';
-// import MovieGrid from '../components/MovieGrid';
+// import Appbar from '../components/Appbar';
 // import MovieDetails from '../components/MovieDetails';
 
 // const Home = () => {
@@ -9,7 +8,7 @@
 
 //   return (
 //     <div>
-//       <SearchBar />
+//       <Appbar />
 //       <h2 style={{ textAlign: 'center' }}>
 //         {lastSearch ? `Results for "${lastSearch}"` : 'Trending Movies'}
 //       </h2>

@@ -8,8 +8,8 @@ const Div = styled('div')(({ theme }) => ({
   padding: theme.spacing(1),
 }));
 
-function App() {
+function SearchBar() {
   return ("hi");
 }
 
-export default App;
+export default SearchBar;
