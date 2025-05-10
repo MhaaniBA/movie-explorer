@@ -9,7 +9,12 @@ const Div = styled('div')(({ theme }) => ({
 }));
 
 function App() {
-  return ("hi");
+  return (
+    <div className='App'>
+      <AppBar/>
+      
+    </div>
+  );
 }
 
 export default App;
